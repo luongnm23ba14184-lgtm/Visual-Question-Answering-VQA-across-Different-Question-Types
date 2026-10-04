@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Checkpoints and models
+checkpoints/
+Results/best_model/
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Data cache & images
+Dataset/images/
+Dataset/*.parquet
+Dataset/gqa_samples.json
+*.zip
+*.tar.gz
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+env/
